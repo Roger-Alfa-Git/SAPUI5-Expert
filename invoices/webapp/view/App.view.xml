@@ -1,0 +1,5 @@
+<mvc:View controllerName="alfagroup.invoices.controller.App"
+xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<Button id="sayhello" text="{i18n>showHelloButtonText}" press=".onShowHello"></Button>
+<Input id="input" value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"></Input>
+</mvc:View>
